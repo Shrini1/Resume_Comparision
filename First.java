@@ -19,26 +19,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class First {
 
-
-
-
-
 public static void main(String[] args) throws IOException {
-
-
-
 String filepath = "C:\\Users\\SDEVIHOS\\Desktop\\Assigment";
-
-
-
-
-
 File input = new File(filepath);
-
-
-
-
-
 File[] fp = input.listFiles();
 
 
@@ -115,9 +98,6 @@ System.out.println("YES, All skills with 100% Match");
 PDDocument.load(file).close();
 
 }
-
-
-
 
 }
 
